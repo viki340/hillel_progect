@@ -1,0 +1,817 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+/* heder */
+.container {
+ width: 1440px; 
+ margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 0;
+    background: #efeff2;
+}
+.header-box {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    color:#19191c;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    margin-left: 240px;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+.link {
+    color: #19191c; 
+    text-decoration: none;
+}
+.btn-box {
+   display: flex;
+    gap: 48px;
+    align-items: center;
+    margin-right: 240px;
+}
+.btn-dscr {
+    color:#19191c;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn {
+    padding: 12px 37px;
+    background: #19191c;
+    color: #fefeff;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/* перша сторінка */
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 230px;
+    background: url(../img/photo-woman.png) 100% 100% no-repeat,
+    url(../img/ellipse21.png) 100% 50% no-repeat,
+    url(../img/Rectangle\ 107.png) 85% 100% no-repeat;
+    background-color: #efeff2;
+}
+.offer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.offer-holder {
+    width: 648px;
+    padding-top: 80px;
+    background: url(../img/Ellipse\ 20.png) 100% 100% no-repeat; 
+}
+.offer-period {
+    font-weight: 700;
+    font-size: 18px;
+    color: #19191c;
+    margin-top: 0%;
+    margin-bottom: 8px;    
+    margin-top: 167px;
+}
+
+hr {
+    width: 84px;
+    margin-left: 0%;
+    margin-bottom: 10px;
+}
+
+.offer-profession {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191c;
+    margin-bottom: 2px;
+}
+
+.offer-title {
+    font-weight: 700;
+    font-size: 58px;
+    color: #19191c;
+    margin-top: 0%;
+    margin-bottom: 48px;
+}
+
+.offer-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191c;
+    margin-bottom: 50px;
+}
+
+.offer-button {
+    padding: 16px 37px;
+    background-color: #504dee;
+    border: none;
+    margin-bottom: 110px;
+}
+
+.button-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fbfbfc;
+}
+
+.offer-sale{
+ font-weight: 700;
+font-size: 58px;
+color: #19191c;
+margin-bottom: 8px;   
+} 
+
+.offer-time {
+    font-weight: 700;
+    font-size: 18px;
+    color: #19191c;
+}
+.time {
+    margin-left: 12px;
+}
+.offer-list {
+align-items: flex-start;
+list-style: none;
+padding: 0;
+flex-grow: 1;
+position: absolute;
+top: 166px;
+right: 240px;
+}
+.offer-item {
+    position: absolute;
+    border: 2px solid #19191c;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.invision{
+top: 232px;
+right: 0;
+}
+.protopie {
+    top: 166px;
+    right: 223px;
+}
+.miro{
+    top: 240px;
+    right: 487px;
+
+}
+.photoshop {
+top: 422px;
+right: 467px;
+}
+.figma {  
+    top: 559px;
+    right: 677px;
+}
+.illustrator {
+top: 736px;
+right: 609px;
+}
+
+/* друга сторінка */
+.profession {
+    background: #fbfbfc;
+    padding-top:168px; 
+}
+.profession-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.profession-text {
+    flex: 1;
+}
+.profession-title {
+    font-weight: 700;
+    font-size: 58px;
+    color: #19191c;
+    margin-top: 0;
+    margin-bottom: 28px;
+    width: 588px;
+}
+.profession-dscr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6d6d77;
+    width: 588px;
+}
+.profession-counters {
+display: flex;
+gap: 103px;
+}
+.profession-counter-number {
+    font-weight: 700;
+    font-size: 58px;
+    color: #19191c;
+    margin-top: 0;
+    bottom: 0;
+}
+.profession-counter-dscr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191c;
+    top: 0;
+}
+.dscr {
+    border: 4px solid #19191c;
+    width: 254px;
+    height: 0px;
+}
+.profession-counter-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6d6d77;
+}
+.profession-counters-conteiners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.conteiner-portfolio {
+    background: #deefe4;
+    margin-top: 168px;
+}
+
+.conteiner-internship {
+    background-color: #f3f3d7;
+    margin-top: 168px;
+}
+
+.conteiner-certificate {
+    background-color: #efdeee;
+    margin-top: 168px;
+}
+
+.conteiner-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #19191c;
+    margin-top: 68px;
+    margin-left: 48px;
+}
+
+.conteiner-dscr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191c;
+    margin-left: 48px;
+    margin-right: 51px;
+    margin-bottom: 68px;
+}
+.blok {
+    border: 4px solid #19191c;
+    width: 371px;
+    margin-top: 28px;
+}
+
+/* сторінка три */
+.discover-title {
+    font-weight: 700;
+    font-size: 58px;
+    color: #19191c;
+}
+.discover-proposition {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.proposition {
+    background: #deefe4;
+    margin-top: 0;
+    margin-bottom: 168px;
+}
+.proposition-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin-top: 48px;
+    margin-bottom: 0;
+    margin-left: 68px;
+    color: #19191c
+}
+.profession-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191c;
+    margin-left: 46px;
+    margin-top: 47px;
+    
+}
+.profession-list-item {
+    margin-bottom: 22px;
+    margin-right: 60px;
+}
+.profession-price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #6d6d77;
+    margin-left: 68px;
+    margin-top: 164px;
+    margin-bottom: 3px;
+}
+.profession-price2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #6d6d77;
+    margin-left: 68px;
+    margin-top: 119px;
+    margin-bottom: 3px;
+}
+.proposition-price-sale {
+    font-weight: 700;
+    font-size: 58px;
+    color: #19191c;
+    margin-left: 68px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.proposition-button {
+    padding: 16px 36px;
+    width: 163px;
+    height: 58px;
+    background: #19191c;
+    margin-bottom: 51px;
+    margin-left: 68px;
+    margin-top: 18px;
+}
+.choose {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #fbfbfc;
+    text-decoration: none;
+}
+.optimal-proposition {
+    background: #504dee;
+    margin: 0;
+    margin-bottom: 168px;
+}
+.optimal-proposition-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #fbfbfc;
+    margin-top: 48px;
+    margin-bottom: 0;
+    margin-left: 68px;
+}
+.optimal-profession-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fbfbfc;
+    margin-left: 46px;
+    margin-top: 47px;
+}
+.optimal-profession-price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #efeff2;
+    margin-left: 68px;
+    margin-top: 90px;
+    margin-bottom: 3px;
+}
+.optimal-proposition-price-sale {
+     font-weight: 700;
+    font-size: 58px;
+    color: #fbfbfc;
+    margin-left: 68px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.optimal-proposition-button {
+    padding: 16px 36px;
+    width: 163px;
+    height: 58px;
+    background:#fbfbfc ;
+    list-style: none;
+    margin-bottom: 51px;
+    margin-left: 68px;
+    margin-top: 18px;
+}
+.optimal-button {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #19191c;
+    text-decoration: none;
+}
+
+/* форма */
+
+.find-program {
+    background: #deefe4;
+    display: flex;
+    justify-content: flex-start;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} 
+.find-program-title {
+    font-weight: 700;
+    font-size: 58px;
+    color: #19191c;
+    margin-top: 168px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.find-program-dscr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px; 
+    margin-top: 28px;
+    margin-bottom: 232px;
+}
+.find-program-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 96px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.input {
+    width: 710px;
+    padding:6px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #19191c;    
+    border: none;
+    border-bottom: 2px solid #19191c;
+    outline: none;
+    background: #deefe4;
+    box-sizing: border-box;
+}
+.input::placeholder {
+    color: #19191c;
+}
+.find-program-button {
+    padding: 16px 36px;
+    background: #19191c;
+    color: #fbfbfc;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 168px;
+}
+
+/* підвал */
+.footer {
+    background-color: #19191c;
+}
+.footer-info{
+ display: flex;
+ flex-direction: row; 
+flex-wrap: wrap;
+justify-content: center;
+}
+.logo-info {
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo {
+    font-weight: 800;
+    font-size: 18px;
+    color: #fbfbfc;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    margin-top: 68px;
+}
+.footer-imail {
+    font-weight: 600;
+    font-size: 24px;
+    color:#fbfbfc;
+    margin-top: 48px;
+    text-decoration: none;
+}
+.footer-namber {
+    font-weight: 600;
+    font-size: 24px;
+    color:#fbfbfc;
+    text-decoration: none;
+    margin-top: 28px;
+}
+.sitemap {
+    margin-left: 146px;
+}
+.sitemap-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fbfbfc;
+    margin-left: 36px;
+    margin-top: 68px;
+}
+.sitemap-list{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    list-style: none;
+
+}
+.sitemap-list-item {
+    color:#efeff2;
+    text-decoration: none;
+    margin: auto;
+}
+div {
+    unicode-bidi: isolate;
+}
+.copiright {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6d6d77;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    
+}
+.copiright-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6d6d77;
+    text-decoration: none;
+}
+
+
+/* додаткові стилі для форматування на інші пристрої */
+@media (max-width: 425px) {
+    .container{
+        width: 420px;
+}
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    .logo {
+        margin-left: 16px;
+        align-items: center;
+    }
+
+    .btn-box {
+        margin-right: 0;
+        gap: 8px;
+        margin-top: 12px;
+        align-items: center;
+    }
+
+    /* сторінка 1 */
+
+    .offer {
+        flex-direction: column;
+        padding: 40px 15px;
+        background-position: center bottom;
+        background-size:cover;
+    }
+
+    .offer-holder {
+       max-width: 390px; 
+       margin-left: 0;
+    }
+
+    .offer-period {
+        margin: 0;
+        padding: 0;
+    }
+
+    .offer-title {
+        font-size: 32px;
+        text-align:left;
+    }
+
+    .offer-info {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* .offer-list {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 30px;
+    } */
+
+    /* .offer-item {
+        position: static;
+        font-size: 12px;
+        padding: 6px 10px;
+        border-radius: 8px;
+    } */
+
+    .profession {
+        padding: 40px 16px;
+        /* box-sizing: border-box; */
+    }
+
+    .profession-wrapper {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .profession-title {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 16px;
+        /* word-wrap: break-word; */
+        width: 390px;
+    }
+
+    .profession-dscr {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 24px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 390px;
+    }
+
+    .profession-counters {
+        flex-direction: column;
+    }
+
+    .profession-counters-conteiners {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .conteiner-portfolio, .conteiner-internship, .conteiner-certificate {
+        margin-top: 24px;
+    }
+
+    /* сторінка 3 */
+   
+    .discover {
+        top: 0;
+    }
+
+    .discover-title {
+        font-size: 36px;
+        /* text-align: center; */
+        margin-bottom: 20px;
+    }
+
+    .discover-proposition {
+        flex-direction: column;
+        gap: 20px;
+        width: 390px;
+    }
+
+    .proposition,
+    .optimal-proposition {
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+
+    .proposition-title,
+    .optimal-proposition-title {
+        font-size: 18px;
+    }
+
+    .profession-list,
+    .optimal-profession-list {
+        font-size: 13px;
+        line-height: 1.4;
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .profession-price,
+    .optimal-profession-price,
+    .proposition-price-sale,
+    .optimal-proposition-price-sale {
+        font-size: 16px;
+        /* text-align: center; */
+    }
+
+    button.proposition-button,
+    button.optimal-proposition-button {
+        padding: 12px 0;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    button.proposition-button a,
+    button.optimal-proposition-button a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+/* форма */
+    .find-program {
+        margin-top: 64px;
+    }
+
+    .form-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .find-program-text {
+        text-align: center;
+        width: 390px;
+        margin-bottom: 0;
+    }
+
+    .find-program-title {
+        font-size: 36px;
+    }
+
+    .find-program-form {
+        margin-top: 0;
+        width: 390px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    /* футер */
+    .footer-info {
+        flex-direction: column;
+        width: 390px;
+    }
+
+    .logo-info {
+        margin-left: 28px;
+    }
+
+    .sitemap {
+        margin-left: 0;
+    }
+
+    .copiright {
+        text-align: center;
+    }
+}
+
+/* доступність */
+input:focus {
+    border-color:red;
+    outline: none;
+}
+
+button:hover {
+background-color:aqua;
+}
+
+a:active {
+    color: #504dee;
+}
